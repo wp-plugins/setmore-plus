@@ -1,0 +1,28 @@
+/*
+	admin.css
+	SetMore WordPress plugin
+*/
+ 
+ul.setmore-style {
+	border: 1px solid #ddd;
+	margin-top: 3px;
+}
+
+ul.setmore-style li {
+	border-bottom: 1px dotted #ddd;
+	display: block;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+ul.setmore-style li:last-child {
+	border-bottom: 0;
+}
+
+a.setmore-admin {
+	margin: 0;
+}
+
+ul.setmore-style li p {
+	margin-bottom: 0;
+}
