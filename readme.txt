@@ -1,5 +1,6 @@
 === SetMore Plus ===
 Contributors: cdillon27
+Donate link: http://www.wpmission.com/donate/
 Tags: appointments, book, booking, calendar, free, online, salon, spa, schedule, scheduling
 Requires at least: 3.3
 Tested up to: 3.9.1
@@ -11,11 +12,15 @@ Let your customers book appointments directly on your website using SetMore Appo
 
 == Description ==
 
-SetMore Plus by [WPMission](http://www.wpmission.com) may not be the official plugin for [SetMore Appointments](http://setmore.com) but my clients like it better :)
+SetMore Plus by [WP Mission](http://www.wpmission.com) may not be the official plugin for [SetMore Appointments](http://setmore.com) but my clients like it better :)
+
+Use a widget to place a "Book Appointments" button on your website or use a shortcode to place the SetMore scheduler on a page.
 
 = About SetMore Appointments =
 
-SetMore offers easy online appointments. This plugin is offered by [WP Mission](http://www.wpmission.com). We have no affiliation with SetMore Appointments and provide no technical support for their service. We do, however, provide lifetime support for this plugin, including [free help](http://www.wpmission.com/contact) getting the "Book Appointment" button to match your theme.
+*SetMore offers easy online appointments. This plugin is offered by [WP Mission](http://www.wpmission.com). We have no affiliation with SetMore Appointments and provide no technical support for their service.*
+
+*We do, however, provide lifetime support for this plugin, including [free help](http://www.wpmission.com/contact) getting the "Book Appointment" button to match your theme.*
 
 == Installation ==
 
@@ -40,9 +45,13 @@ then
 
 Visit [SetMore](http://setmore.com) to get your free account. A [premium plan](http://www.setmore.com/premium) with more features is also available.
 
-= How do I change the "Book Appointment" button?
+= How do I change the "Book Appointment" button? =
 
-In the widget, you can select the default image button, a trendy flat button, or a plain link. To create a custom button, select the plain link option, then add style rules for `a.setmore` in your theme's stylesheet or custom CSS function. Here's an example of a square blue button with white text:
+In the widget, you can select the default image button, a trendy flat button, or a plain link. 
+
+To create a custom button, select the plain link option, then add style rules for `a.setmore` in your theme's stylesheet or custom CSS function.
+
+For example, here's a square blue button with white text:
 `
 a.setmore {
 	background: #4372AA;
@@ -60,6 +69,8 @@ a.setmore:hover {
 	text-decoration: none;
 }
 `
+
+Need more help? Use the [support forum](http://wordpress.org/support/plugin/setmore-plus) or [contact me](http://www.wpmission.com/contact).
 
 == Changelog ==
 
