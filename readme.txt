@@ -1,43 +1,69 @@
 === SetMore Plus ===
 Contributors: cdillon27
-Donate link: http://www.wpmission.com/donate/
-Tags: appointments, book, booking, calendar, free, online, salon, spa, schedule, scheduling
+Tags: appointments, book, booking, calendar, salon, spa, schedule, scheduling
 Requires at least: 3.3
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Let your customers book appointments directly on your website using SetMore Appointments.
+Easy online appointments.
 
 == Description ==
 
 SetMore Plus by [WP Mission](http://www.wpmission.com) may not be the official plugin for [SetMore Appointments](http://setmore.com) but my clients like it better :)
 
-Use a widget to place a "Book Appointments" button on your website or use a shortcode to place the SetMore scheduler on a page.
+SetMore offers easy online appointments. Use a **widget** to place a "Book Appointments" button on your website or **shortcode** to place the SetMore scheduler on a page.
 
-= About SetMore Appointments =
+*This plugin is offered by [WP Mission](http://www.wpmission.com). We have no affiliation with SetMore Appointments and provide no technical support for their service.*
 
-*SetMore offers easy online appointments. This plugin is offered by [WP Mission](http://www.wpmission.com). We have no affiliation with SetMore Appointments and provide no technical support for their service.*
+We do, however, provide lifetime support for this plugin, including [free help](http://www.wpmission.com/contact) getting the "Book Appointment" button to match your theme.
 
-*We do, however, provide lifetime support for this plugin, including [free help](http://www.wpmission.com/contact) getting the "Book Appointment" button to match your theme.*
+This plugin will *leave no trace!* If you delete the plugin, all settings will be removed from the database. Guaranteed. However, simply deactivating it will leave your settings in place, as expected.
+
+= Recommended =
+
+* [Simple Custom CSS](http://wordpress.org/plugins/simple-custom-css/) (fully compatible)
+* [Wider Admin Menu](http://wordpress.org/plugins/wider-admin-menu/) (fully compatible)
+
+= Known Conflicts =
+
+* none
+
+= Translations =
+
+Can you help? [Contact me](http://www.wpmission.com/contact/).
+
 
 == Installation ==
 
-* Upload `/setmore-plus` to the `/wp-content/plugins/` directory.
+Option A: 
 
-or
+1. Go to `Plugins > Add New`.
+1. Search for "setmore plus".
+1. Click "Install Now".
 
-* Search for "SetMore Plus" on your `Plugins > Add New` page.
+Option B: 
 
-then
+1. Download the zip file.
+1. Unzip it on your hard drive.
+1. Upload the `setmore-plus` folder to the `/wp-content/plugins/` directory.
 
-1. Activate the plugin.
+Option C:
+
+1. Download the zip file.
+1. Upload the zip file via `Plugins > Add New > Upload`.
+
+Finally, activate the plugin.
+
 1. Go to `Settings > SetMore Plus`.
 1. In another browser tab, sign in to [my.setmore.com](http://my.setmore.com).
 1. Copy your Booking Page URL from your "Profile" tab.
 1. Paste that URL into the `SetMore Booking URL` field in WordPress. Remember to "Save Changes".
 1. Use the widget to add a "Book Appointment" button to a sidebar, or use the shortcode `[setmoreplus]` to add the scheduler to a page.
+
+Need help? Use the [support forum](http://wordpress.org/support/plugin/strong-testimonials) or [contact me](http://www.wpmission.com/contact/).
+
 
 == Frequently Asked Questions ==
 
@@ -49,7 +75,7 @@ Visit [SetMore](http://setmore.com) to get your free account. A [premium plan](h
 
 In the widget, you can select the default image button, a trendy flat button, or a plain link. 
 
-To create a custom button, select the plain link option, then add style rules for `a.setmore` in your theme's stylesheet or custom CSS function.
+To create a custom button, select the plain link option, then add style rules for `a.setmore` in your theme's stylesheet or custom CSS function, or try [Simple Custom CSS](http://wordpress.org/plugins/simple-custom-css/).
 
 For example, here's a square blue button with white text:
 `
@@ -70,9 +96,21 @@ a.setmore:hover {
 }
 `
 
-Need more help? Use the [support forum](http://wordpress.org/support/plugin/setmore-plus) or [contact me](http://www.wpmission.com/contact).
+Need help? Use the [support forum](http://wordpress.org/support/plugin/setmore-plus) or [contact me](http://www.wpmission.com/contact).
+
+= Leave no trace? What's that about? =
+
+Some plugins and themes don't fully uninstall everything they installed - things like settings, database tables, subdirectories. That bugs me. Sometimes, it bugs your WordPress too.
+
+So this plugin will completely remove itself upon deletion. Deactivating the plugin will leave the settings intact. You can also switch off "Leave No Trace" so the settings remain after deletion, if you want.
+
 
 == Changelog ==
+
+= 2.2 =
+* Added "Leave No Trace" feature.
+* Added uninstall.php, a best practice.
+* Object-oriented refactor.
 
 = 2.1 =
 * Improved settings page.
@@ -88,7 +126,11 @@ Need more help? Use the [support forum](http://wordpress.org/support/plugin/setm
 = 1.0 =
 * This is the first version.
 
+
 == Upgrade Notice ==
+
+= 2.2 =
+Leave No Trace.
 
 = 2.1 =
 Improved settings page.

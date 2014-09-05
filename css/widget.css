@@ -1,9 +1,8 @@
 /*
-	widget.css
-	SetMore WordPress plugin
-	
-	Default style for SetMore link to iframe lightbox.
-*/
+ * SetMore Plus widget stylesheet
+ *
+ * Default style for SetMore link to iframe lightbox.
+ */
  
 a.setmore {
 	background: #ddd;
