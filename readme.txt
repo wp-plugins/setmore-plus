@@ -107,6 +107,9 @@ So this plugin will completely remove itself upon deletion. Deactivating the plu
 
 == Changelog ==
 
+= 2.2.1 =
+Fix bug in shortcode.
+
 = 2.2 =
 * Added "Leave No Trace" feature.
 * Added uninstall.php, a best practice.
@@ -128,6 +131,9 @@ So this plugin will completely remove itself upon deletion. Deactivating the plu
 
 
 == Upgrade Notice ==
+
+= 2.2.1 =
+Fixed a bug in shortcode.
 
 = 2.2 =
 Leave No Trace.

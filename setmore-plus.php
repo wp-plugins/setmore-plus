@@ -3,7 +3,7 @@
  * Plugin Name: SetMore Plus
  * Plugin URI: http://www.wpmission.com/plugins/setmore-plus
  * Description: Easy online appointments.
- * Version: 2.2
+ * Version: 2.2.1
  * Author: Chris Dillon
  * Author URI: http://www.wpmission.com
  * Text Domain: setmore-plus
@@ -133,8 +133,8 @@ class SetmorePlus {
 				<?php do_settings_sections( 'setmoreplus-settings-group' ); ?>
 				
 				<div>
-							<input type="text" id="setmoreplus_url" name="setmoreplus[url]" style="width: 310px;" value="<?php echo $options['url']; ?>" placeholder="SetMore Booking Page URL">
-							<p>To find your unique URL, <a href="http://my.setmore.com" target="_blank">sign in to SetMore</a> and click on the Profile tab. Or get started with <a href="http://www.setmore.com" target="_blank">a completely free account</a>.</p>
+					<input type="text" id="setmoreplus_url" name="setmoreplus[url]" style="width: 310px;" value="<?php echo $options['url']; ?>" placeholder="SetMore Booking Page URL">
+					<p>To find your unique URL, <a href="http://my.setmore.com" target="_blank">sign in to SetMore</a> and click on the Profile tab. Or get started with <a href="http://www.setmore.com" target="_blank">a completely free account</a>.</p>
 				</div>
 
 				<div class="option leave-no-trace">
@@ -171,7 +171,8 @@ class SetmorePlus {
 	}
 
 	public function iframe_function() {
-		$html = '<iframe src="' . get_option( 'setmoreplus_url' ) . '" width="600" height="750" frameborder="0"></iframe>';
+		$options = get_option( 'setmoreplus' );
+		$html = '<iframe src="' . $options['url'] . '" width="600" height="750" frameborder="0"></iframe>';
 		return $html;
 	}
 
