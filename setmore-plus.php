@@ -3,7 +3,7 @@
  * Plugin Name: SetMore Plus
  * Plugin URI: http://www.wpmission.com/plugins/setmore-plus
  * Description: Easy online appointments.
- * Version: 2.2.1
+ * Version: 2.2.2
  * Author: Chris Dillon
  * Author URI: http://www.wpmission.com
  * Text Domain: setmore-plus
@@ -38,6 +38,7 @@ class SetmorePlus {
 		add_action( 'admin_init', array( $this, 'default_settings' ) );
 		add_action( 'admin_menu', array( $this, 'add_options_page' ) );
 		add_filter( 'plugin_action_links', array( $this, 'plugin_action_links' ), 10, 2 );
+		add_filter( 'no_texturize_shortcodes', array( $this, 'shortcodes_to_exempt_from_wptexturize' ) );
 		
 		add_action( 'init', array( $this, 'register_shortcodes' ) );
 		add_action( 'widgets_init', array( $this, 'register_widget' ) );
@@ -178,6 +179,17 @@ class SetmorePlus {
 
 	public function register_shortcodes() {
 		add_shortcode( 'setmoreplus', array( $this, 'iframe_function' ) );
+	}
+	
+	/**
+	 * Do not texturize shortcode.
+	 *
+	 * For WordPress 4.0.1+
+	 * @since 2.2.2
+	 */
+	public function shortcodes_to_exempt_from_wptexturize( $shortcodes ) {
+		$shortcodes[] = 'setmoreplus';
+		return $shortcodes;
 	}
 	
 }

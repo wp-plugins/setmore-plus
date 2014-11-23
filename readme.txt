@@ -2,7 +2,7 @@
 Contributors: cdillon27
 Tags: appointments, book, booking, calendar, salon, spa, schedule, scheduling
 Requires at least: 3.3
-Tested up to: 4.0
+Tested up to: 4.0.1
 Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -23,8 +23,8 @@ This plugin will *leave no trace!* If you delete the plugin, all settings will b
 
 = Recommended =
 
-* [Simple Custom CSS](http://wordpress.org/plugins/simple-custom-css/) (fully compatible)
-* [Wider Admin Menu](http://wordpress.org/plugins/wider-admin-menu/) (fully compatible)
+* [Simple Custom CSS](http://wordpress.org/plugins/simple-custom-css/)
+* [Wider Admin Menu](http://wordpress.org/plugins/wider-admin-menu/)
 
 = Known Conflicts =
 
@@ -107,8 +107,11 @@ So this plugin will completely remove itself upon deletion. Deactivating the plu
 
 == Changelog ==
 
+= 2.2.2 =
+* Add filter to exempt shortcode from wptexturize in WordPress 4.0.1+.
+
 = 2.2.1 =
-Fix bug in shortcode.
+* Fix bug in shortcode.
 
 = 2.2 =
 * Added "Leave No Trace" feature.
@@ -131,6 +134,9 @@ Fix bug in shortcode.
 
 
 == Upgrade Notice ==
+
+= 2.2.2 =
+Compatible with WordPress 4.0.1.
 
 = 2.2.1 =
 Fixed a bug in shortcode.
