@@ -2,7 +2,7 @@
 Contributors: cdillon27
 Tags: appointments, book, booking, calendar, salon, spa, schedule, scheduling
 Requires at least: 3.3
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -25,10 +25,6 @@ This plugin will *leave no trace!* If you delete the plugin, all settings will b
 
 * [Simple Custom CSS](http://wordpress.org/plugins/simple-custom-css/)
 * [Wider Admin Menu](http://wordpress.org/plugins/wider-admin-menu/)
-
-= Known Conflicts =
-
-* none
 
 = Translations =
 
