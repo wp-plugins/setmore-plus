@@ -1,7 +1,15 @@
-/*
+/**
  * SetMore Plus admin stylesheet
  */
- 
+
+button.demo {
+	font-size: 0.9em;
+}
+
+code {
+	font-size: 14px;
+}
+
 /* Leave No Trace */
 
 .option {
@@ -21,6 +29,7 @@
 		border: 1px solid #ddd;
 		border-radius: 0 10px 10px 0;
 		color: #656565;
+		font-size: 14px;
 		font-weight: 700;
 		line-height: 22px;
 		margin-left: -40px;
@@ -36,12 +45,31 @@
 	.option-desc {
 		vertical-align: top;
 		line-height: 1.5;
+		font-size: 14px;
 	}
+
+.wrap input.four-digits {
+	width: 4em;
+}
+
+p {
+	font-size: 14px;
+	font-style: normal;
+}
 
 /*
  * toggle switch 
  * thanks http://proto.io/freebies/onoff/
  */
+
+.option.leave-no-trace {
+	padding-left: 0;
+}
+ 
+.the-button {
+	width: 220px; /* to match WordPress table */
+	display: inline-block;
+}
 
 .onoffswitch {
 	position: relative;

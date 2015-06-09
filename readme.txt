@@ -2,7 +2,7 @@
 Contributors: cdillon27
 Tags: appointments, book, booking, calendar, salon, spa, schedule, scheduling
 Requires at least: 3.3
-Tested up to: 4.2
+Tested up to: 4.2.2
 Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -11,13 +11,13 @@ Easy online appointments.
 
 == Description ==
 
-SetMore Plus by [WP Mission](http://www.wpmission.com) may not be the official plugin for [SetMore Appointments](http://setmore.com) but my clients like it better :)
+SetMore Plus by [WP Mission](https://www.wpmission.com) may not be the official plugin for [SetMore Appointments](http://setmore.com) but my clients like it better :)
 
-SetMore offers easy online appointments. Use a **widget** to place a "Book Appointments" button on your website or **shortcode** to place the SetMore scheduler on a page.
+SetMore offers easy online appointments. Use a **widget** to place a "Book Appointments" button on your website. With the **shortcode** options, you can easily embed the SetMore scheduler directly in a page, or add a link or a button that opens the scheduler in a popup window.
 
-*This plugin is offered by [WP Mission](http://www.wpmission.com). We have no affiliation with SetMore Appointments and provide no technical support for their service.*
+*This plugin is offered by [WP Mission](https://www.wpmission.com). We have no affiliation with SetMore Appointments and provide no technical support for their service.*
 
-We do, however, provide lifetime support for this plugin, including [free help](http://www.wpmission.com/contact) getting the "Book Appointment" button to match your theme.
+We do, however, provide lifetime support for this plugin, including [free help](https://www.wpmission.com/contact) getting the "Book Appointment" button to match your theme.
 
 This plugin will *leave no trace!* If you delete the plugin, all settings will be removed from the database. Guaranteed. However, simply deactivating it will leave your settings in place, as expected.
 
@@ -28,7 +28,7 @@ This plugin will *leave no trace!* If you delete the plugin, all settings will b
 
 = Translations =
 
-Can you help? [Contact me](http://www.wpmission.com/contact/).
+Can you help? [Contact me](https://www.wpmission.com/contact/).
 
 
 == Installation ==
@@ -56,9 +56,9 @@ Finally, activate the plugin.
 1. In another browser tab, sign in to [my.setmore.com](http://my.setmore.com).
 1. Copy your Booking Page URL from your "Profile" tab.
 1. Paste that URL into the `SetMore Booking URL` field in WordPress. Remember to "Save Changes".
-1. Use the widget to add a "Book Appointment" button to a sidebar, or use the shortcode `[setmoreplus]` to add the scheduler to a page.
+1. Use the widget or the shortcode.
 
-Need help? Use the [support forum](http://wordpress.org/support/plugin/strong-testimonials) or [contact me](http://www.wpmission.com/contact/).
+Need help? Use the [support forum](http://wordpress.org/support/plugin/strong-testimonials) or [contact me](https://www.wpmission.com/contact/).
 
 
 == Frequently Asked Questions ==
@@ -92,7 +92,7 @@ a.setmore:hover {
 }
 `
 
-Need help? Use the [support forum](http://wordpress.org/support/plugin/setmore-plus) or [contact me](http://www.wpmission.com/contact).
+Need help? Use the [support forum](http://wordpress.org/support/plugin/setmore-plus) or [contact me](https://www.wpmission.com/contact).
 
 = Leave no trace? What's that about? =
 
@@ -102,6 +102,9 @@ So this plugin will completely remove itself upon deletion. Deactivating the plu
 
 
 == Changelog ==
+
+= 2.3 =
+* More shortcode options.
 
 = 2.2.2 =
 * Add filter to exempt shortcode from wptexturize in WordPress 4.0.1+.
@@ -131,17 +134,5 @@ So this plugin will completely remove itself upon deletion. Deactivating the plu
 
 == Upgrade Notice ==
 
-= 2.2.2 =
-Compatible with WordPress 4.0.1.
-
-= 2.2.1 =
-Fixed a bug in shortcode.
-
-= 2.2 =
-Leave No Trace.
-
-= 2.1 =
-Improved settings page.
-
-= 2.0 =
-Updated for WordPress 3.9. Improved widget options.
+= 2.3 =
+More shortcode options including setting the size of the popup window.
