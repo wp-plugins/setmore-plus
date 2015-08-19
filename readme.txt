@@ -2,7 +2,7 @@
 Contributors: cdillon27
 Tags: appointments, book, booking, calendar, salon, spa, schedule, scheduling
 Requires at least: 3.3
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
